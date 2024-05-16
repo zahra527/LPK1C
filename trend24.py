@@ -3,10 +3,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+#tampilan konten aplikasi
 tab1,tab2,tab3=st.tabs(['HALAMAN UTAMA','RUMUS','TABEL VISKOSI'])
 
 with tab1:
-    st.header('Aplikasi Penetapan Kekentalan Metode Lju Alir Oswald/Engler',divider='rainbow')
+    st.header('Aplikasi Penetapan Kekentalan Metode Laju Alir Oswald/Engler',divider='rainbow')
     st.markdown('''Hallo Guys''')
     st.markdown('''Selamat Anda Adalah Orang Beruntung Yang Membuka Web Aplikasi Ini''')
     st.markdown(''':blue[ARE YOU READY?? LETS GOO]''')
